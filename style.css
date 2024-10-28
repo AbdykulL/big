@@ -1,0 +1,269 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+header{
+    display: grid;
+    grid-template-columns: repeat(11,150px);
+    grid-template-rows: repeat(2,40px);
+}
+
+.bir{
+    display: grid;
+    grid-template-columns: repeat(10,105px);
+    word-spacing: 20px;
+    font-size: 26px;
+    margin-top: 30px;
+    color: black;
+    
+}
+
+a:hover {
+    text-decoration: none;
+    
+    color: rgb(255, 170, 60);
+    text-decoration: none;
+}
+/* .ekib{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    font-size: 15px ;
+}
+.ekia{
+    color: black;
+    text-decoration: none;
+
+} */
+.eki {
+    display: grid;
+    grid-template-columns: repeat( 10,150px);
+    grid-column: 9/11;
+    margin-top: 35px;
+}
+
+.header2{
+    display: grid;
+    grid-template-columns: repeat(3,80px);
+    grid-template-rows: repeat(2,30px);
+    grid-row: 1/2;
+}
+.about{
+    color:black;
+    text-decoration: none;
+}
+.job{
+    color:black;
+    text-decoration: none;
+}
+.app{
+    color: black;
+    text-decoration: none;
+}
+
+/* .header {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    align-items: center;} */
+
+
+.text{
+    text-align: center;
+    font-size: 30px;
+}
+.text span{
+    
+
+}
+.text p{
+    font-size: 25px;
+    margin-left: 35px;
+}
+.text span{
+    margin-left: 35px;
+}
+.container img{
+    width: 90%;
+    height: 100%;
+    display: grid;
+    place-content: center;
+    padding-left: 50px;
+    margin-right: -50px;
+}
+
+.smallone{
+    /* width: 30%;
+    border: 200px solid rgb(249, 249, 127);
+    margin-top: -700px;
+    margin-left: 600px; */
+    box-sizing: content-box;
+    padding: 266px 133px 266px 266px;
+    background-color: #FBFFA7;
+    width: 533px;
+    height: 400px;
+    
+
+    
+}
+.bigone{
+    z-index: 1;
+    margin-right: -132px;
+    width: 666px;
+    height: 666px;
+}
+.middle-image{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.text-big{
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 42px;
+    margin-bottom: 21px;
+}
+.text-min{
+    font-size: 17px;
+    line-height: 30px;
+}
+.text{
+    padding: 133px 0;
+    width: 800px;
+    margin: 0 auto;
+}
+.green{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.collage2__bg {
+    padding: 133px 266px 133px 133px;
+    background-color: #B6FFC0;
+    display: flex;
+    flex-direction: column;
+    gap: 133px;
+}
+.collage2__01 {
+    width: 533px;
+    height: 400px;
+}
+.collage2__02 {
+    width: 533px;
+    height: 400px;
+}
+.collage2__03 {
+    margin-left: -133px;
+    width: 666px;
+    height: 666px;
+}
+.tok{
+    width: 1200px;
+    
+    margin-left: 133px;
+}
+.smallkorermender{
+    padding: 80px;
+    top: 266px;
+    left: 133px;
+    width: 533px;
+    height: 400px;
+}
+.bigkorermender{
+    
+    top: 133px;
+    width: 666px;
+    height: 666px;
+}
+.PHOTO{
+    margin-top: -800px;
+    
+}
+.feo{
+    display: flex;
+    justify-content: center;
+    
+    background-color: #D5B3FF;
+    
+    width: 1066px;
+    margin: 0 auto;
+    height: 933px;
+}
+.twopics{
+    width:  1200px;
+    margin-left: 80px;
+}
+footer {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .footer-section {
+    max-width: 200px;
+  }
+  
+  .footer-section h2, .footer-section h3 {
+    font-weight: bold;
+  }
+  
+  .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin: 5px 0;
+  }
+  
+  .footer-section ul li a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .social-media a {
+    display: inline-block;
+    margin: 5px;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+    font-size: 12px;
+  }
+  
+  .footer-bottom ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-bottom ul li {
+    margin-right: 15px;
+  }
+  
+  .footer-bottom ul li a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  
